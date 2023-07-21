@@ -6,7 +6,7 @@
 
 html {
   font-size: 18px;
-  background: url("/WMC_2.0/WMC4.0/WMC4.0/img/HP2.jpg") ;
+  background: url("../img/HP2.jpg") ;
   background-size: cover;
 }
 

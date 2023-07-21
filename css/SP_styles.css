@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 18px;
+  background: url("/img/HP2.jpg") ;
+  background-size: cover;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.form {
+  width: 25rem;
+  padding: 1.5rem 2rem;
+  margin: auto 0;
+  color: hsl(0, 0%, 100%);
+  background: hsl(0%, 0%, 50%);
+  border-radius: 8px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.input {
+  font-size: inherit;
+  padding: 0.5rem 0.75rem;
+  background: #eee;
+  border: none;
+  border-radius: 4px;
+}
+
+.button {
+  display: block;
+  font-size: 1.1rem;
+  margin: 1.5rem auto 0.5rem auto;
+  padding: 0.5rem 2rem;
+  color: #f4f1de;
+  background: rgb(72, 159, 94);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4e9677;
+}
+.card2{
+  display: flex;
+}
+.welcome2{
+  font-size: 2rem;
+  font-style:italic;
+  color: #ffffff;
+  margin: 3rem 0 0 0;
+  max-width: 80rem;
+  padding: 34px 33px 12rem 42rem;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+

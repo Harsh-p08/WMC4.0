@@ -6,8 +6,8 @@
 
 html {
   font-size: 18px;
-  background: url("/WMC_2.0/WMC4.0/WMC4.0/img/HP2.jpg") ;
-  background-size: cover;
+  background: url("/WMC_2.0/WMC4.0/WMC4.0/img/H4.jpg") ;
+  background-size:cover;
 }
 
 body {
@@ -48,14 +48,14 @@ body {
   margin: 1.5rem auto 0.5rem auto;
   padding: 0.5rem 2rem;
   color: #f4f1de;
-  background: rgb(72, 159, 94);
+  background: rgb(255, 83, 83);
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .button:hover {
-  background: #4e9677;
+  background: rgb(252, 53, 53);
 }
 .card2{
   display: flex;

@@ -6,11 +6,14 @@
 
 html {
   font-size: 18px;
-  background: url("/WMC_2.0/WMC4.0/WMC4.0/img/H4.jpg") ;
-  background-size:cover;
+  height: 100%;
+  background: url("/static/H4.jpg") ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
 }
 
-body {
+body { 
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -28,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .form__label {
   margin-bottom: 0.25rem;
   font-weight: 600;
@@ -53,20 +55,27 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .button:hover {
   background: rgb(252, 53, 53);
 }
-.card2{
+.form a{
+  color: #ffffff;
+  text-decoration:none ;
+  cursor: pointer;
+}
+.form a:hover{
+  -webkit-text-fill-color:  #d3d0d0;
+}
+.card{
   display: flex;
 }
-.welcome2{
+.welcome{
   font-size: 2rem;
   font-style:italic;
   color: #ffffff;
-  margin: 3rem 0 0 0;
-  max-width: 80rem;
-  padding: 34px 33px 12rem 42rem;
+  margin: 3rem auto 0 0;
+  max-width: 63rem;
+  padding: 20px 0 5rem 42rem;
   animation: bounce 2s infinite;
 }
 @keyframes bounce {

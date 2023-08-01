@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #191919;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .booking-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .left-section img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .option:hover {
+    text-decoration: underline;
+  }
+  
+  .payment-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .payment-button:hover {
+    background-color: #0056b3;
+  }
+  

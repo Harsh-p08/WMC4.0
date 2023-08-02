@@ -17,7 +17,7 @@ body {
   
   header {
     /* background-repeat: no-repeat; */
-    background-image:url("../img/H1.jpg");
+    background-image:url("../static/H1.jpg");
     background-size: cover;
     color: #FFF;
     text-align: center;
@@ -85,7 +85,7 @@ body {
   }
   
   .gallery {
-    background-image:url("../img/background.webp") ;
+    background-image:url("../static/background.webp") ;
     background-size: cover;
     height: 700px;
     text-align: center;

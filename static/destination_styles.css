@@ -9,6 +9,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin:0 0rem 3rem 0rem;
   }
   
   h1 {
@@ -23,6 +24,7 @@ body {
   
   .booking-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 30px;
   }

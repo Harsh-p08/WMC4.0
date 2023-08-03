@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color:hsl(180, 8%, 75%);
+    /* background-image: url("../static/earth.mp4"); */
     width: 100%;
   }
   

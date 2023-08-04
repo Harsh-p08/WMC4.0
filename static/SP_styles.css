@@ -6,7 +6,6 @@
 
 html {
   font-size: 18px;
-  background: url("/static/H4.jpg") ;
   background-size:cover;
 }
 
@@ -40,6 +39,22 @@ body {
   background: #eee;
   border: none;
   border-radius: 4px;
+}
+
+.video-background {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .button {

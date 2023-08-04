@@ -8,8 +8,14 @@
   </head>
 
   <body>
+    <video autoplay muted loop>
+      <source src="../static/earth.mp4" type="video/mp4">
+      Fallback content in case the video doesn't work
+      Your browser does not support the video tag.
+    </video>
     <div class="card">
-      <form class="form" method="POST">
+
+      <form class="form" method="POST">     
         <h2> Login </h2>
         <p class="form__group">
           <label class="form__label" for="username">Username:</label>
@@ -25,7 +31,9 @@
           Not a User? <a href="./Signup">Signup</a>
         </p>
       </form>
+    
       <p class="welcome">Welcome to the Adventure!</p>
+      
     </div>
   </body>
 </html>

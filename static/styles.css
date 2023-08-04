@@ -33,6 +33,11 @@ body {
     justify-content: right;
     gap: 50px;
 }
+
+.navigation ul li:hover{
+   text-decoration: underline;
+
+}
   header nav ul {
     list-style-type: none;
     margin: 0;
